@@ -1,0 +1,11 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar h1{ 
+    box-shadow: inset 4px 4px 10px 1px #0c0e13,inset -4px -4px 10px 1px #232833;
+    padding: 20px;
+    border-radius: 20px;
+}
