@@ -1,9 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  color: #9ab3be;
 }
 
 
@@ -12,16 +9,14 @@ body{
   font-size: 20px;
   background-color: #181b26; 
   /* #01021f */
+  /* #181b26 */
   font-family: 'Montserrat', sans-serif;
 
+  scroll-behavior: smooth;
+  color: #9ab3be;
 }
 
 a{
   text-decoration: none;
   color: rgb(240, 240, 240);
-}
-
-h1{
-  text-align: center;
-  margin: 3rem;
 }

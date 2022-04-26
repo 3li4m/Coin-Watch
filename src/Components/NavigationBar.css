@@ -1,0 +1,80 @@
+.navbar{
+    padding-top: 50px;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.second--color__title{
+    color: #0FAE96;
+}
+
+.nav-container{
+    color: white;
+}
+
+.currency-selector{
+    font-family: 'Montserrat', sans-serif !important;
+    color: white !important;
+    width: 89px;
+    height: 50px;
+    border: none;
+    margin-right: 10px;
+}
+
+.MuiSvgIcon-root{
+    color: white !important;
+}
+
+.divider{
+    border-left: 1px solid gray;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn-primary{
+    background-color: #0FAE96;
+    border-radius: 10px;
+    border: 1px solid #0FAE96;
+    height: 50px;
+    width: 100px;
+}
+
+.css-194ccxm-MuiInputBase-root-MuiInput-root-MuiSelect-root:before{
+    border-bottom: 1px solid #181b26 !important;
+}
+
+.css-194ccxm-MuiInputBase-root-MuiInput-root-MuiSelect-root:after{
+    border-bottom: 1px solid #0FAE96 !important;
+}
+
+.MuiInputLabel-root{
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.navbar-nav{
+    margin-left: 7rem !important;
+}
+
+.nav-link::after{
+    display: block;
+    content: '';
+    border-bottom: 2px solid #0FAE96;
+    transform: scaleX(0);
+    transition: transform .5s ease;
+}
+
+.nav-link:hover::after{
+    transform: scaleX(1);
+}
+

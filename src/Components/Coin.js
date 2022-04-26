@@ -15,7 +15,7 @@ const Coin = () => {
 
     return (
     <div>
-        <h1>Hellow</h1>
+        <h1></h1>
     </div>
   )
 }

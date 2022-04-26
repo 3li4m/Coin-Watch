@@ -1,10 +1,15 @@
-.container{
+.coins-container{
     max-width: 1140px;
     margin: auto;
-    padding: 50px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: inset 4px 4px 10px 1px #0c0e13,inset -4px -4px 10px 1px #232833;
     margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.coins-container p{
+    margin-bottom: 0px;
 }
 
 .heading{
@@ -41,6 +46,10 @@
     background-color: rgb(35, 38, 54);
     transition: .3s ease-in-out;
     cursor: pointer;
+}
+
+.coin-row p{
+    margin-bottom: 0;
 }
 
 img{

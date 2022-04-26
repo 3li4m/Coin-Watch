@@ -6,7 +6,7 @@ import Coin from './Coin.js'
 
 const Coins = (props) => {
   return (
-    <div className='container'>
+    <div className='coins-container'>
         <div>
             <div className='heading'>
                 <p>#</p>
@@ -19,7 +19,10 @@ const Coins = (props) => {
             {
                 props.coins?.map(coins => {
                     return (
-                        <Link to={`/coin/${coins.id}`} element={<Coin />}  key={coins.id}>
+                        // <Link to={`/coin/${coins.id}`} element={<Coin />}  key={coins.id}>
+                        //     <CoinItem coins={coins} />
+                        // </Link>
+                        <Link to={`/`} element={<Coin />}  key={coins.id}>
                             <CoinItem coins={coins} />
                         </Link>
                     )
